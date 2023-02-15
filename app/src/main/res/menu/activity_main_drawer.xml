@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+       <item
+           android:icon="@drawable/ic_baseline_home_24"
+           android:id="@+id/main_nav_home"
+           android:title="@string/home"/>
+        <item
+            android:icon="@drawable/ic_person"
+            android:id="@+id/main_nav_profile"
+            android:title="@string/profile"/>
+        <item
+            android:icon="@drawable/ic_photo"
+            android:id="@+id/main_nav_galerie"
+            android:title="Galerie foto"/>
+        <item
+            android:icon="@drawable/ic_offer"
+            android:id="@+id/main_nav_oferte"
+            android:title="Oferte"/>
+        <item
+            android:icon="@drawable/ic_menu"
+            android:id="@+id/main_nav_meniuri"
+            android:title="Meniuri"/>
+        <item
+            android:icon="@drawable/ic_add"
+            android:id="@+id/main_nav_rezervare_noua"
+            android:title="Rezervare noua"/>
+        <item
+            android:icon="@drawable/ic_my_reservations"
+            android:id="@+id/main_nav_my_reservations"
+            android:title="Rezervarile mele"/>
+        <item
+            android:icon="@drawable/ic_law"
+            android:id="@+id/main_nav_hotarari"
+            android:title="Hotarari COVID 19"/>
+        <item
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:id="@+id/main_nav_contact"
+            android:title="@string/contact"/>
+    </group>
+</menu>

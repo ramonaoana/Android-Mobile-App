@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/clients_icon"
+                    android:id="@+id/imgClientSex">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/name"
+                            android:id="@+id/imgCardName"
+                            android:layout_marginLeft="20dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Ramona Oana"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardName"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="ID:1"
+                            android:gravity="right"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardId"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/location"
+                            android:id="@+id/imgCardAddress"
+                            android:layout_marginLeft="20dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Comuna Copaceni, Ilfov"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardAddress"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/cnp"
+                            android:id="@+id/imgCardCNP"
+                            android:layout_marginLeft="20dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="601023456765432"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardCNP"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/phone"
+                            android:id="@+id/imgCardPhone"
+                            android:layout_marginLeft="20dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="0731831884"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardPhone"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/email"
+                            android:id="@+id/imgCardEmail"
+                            android:layout_marginLeft="20dp"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="ramsodfg@gmail,com"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tvCardEmail"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvCardNrReservations"
+                    android:text="Nr. Reservations: 10"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvCardRights"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:text="Rights: false "></TextView>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="@color/pink"
+                            android:layout_marginLeft="150dp"
+                            android:textColor="@color/white"
+                            android:text="Add rights"
+                            android:gravity="right"
+                            android:id="@+id/btnAddRights"></Button>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
